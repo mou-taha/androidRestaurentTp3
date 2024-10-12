@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:id="@+id/txtUsername"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="50dip"
+        android:layout_marginBottom="10dip"
+        android:hint="Username"
+        android:inputType="text"></EditText>
+
+    <EditText
+        android:id="@+id/txtpassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_below="@+id/txtUsername"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="50dip"
+        android:layout_marginBottom="15dip"
+        android:hint="Password"
+        android:inputType="textPassword"></EditText>
+
+    <Button
+        android:id="@+id/btnAuth"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:text="Login"
+        android:layout_below="@+id/txtpassword"
+        android:layout_marginLeft="50dip"
+        android:layout_marginRight="50dip"
+        ></Button>
+
+    <Button
+        android:id="@+id/btnAuthGoogle"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:text="Connect with Google"
+        android:layout_below="@+id/btnAuth"
+        android:layout_marginLeft="50dip"
+        android:layout_marginRight="50dip"
+        ></Button>
+
+    <Button
+        android:id="@+id/btnAuthFacebook"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:text="Login with Facebook"
+        android:layout_below="@+id/btnAuthGoogle"
+        android:layout_marginLeft="50dip"
+        android:layout_marginRight="50dip"
+        ></Button>
+
+</RelativeLayout>
